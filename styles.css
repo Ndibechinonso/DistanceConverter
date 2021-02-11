@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.converter {
+  font-family: Arial, sans-serif;
+  width: 400px;
+  margin: auto;
+  background-color: #74c6e0;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.input-section {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 34px;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.info p {
+  margin-bottom: 5px;
+}
+
+.info p:nth-child(2) {
+  font-size: 14px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.convert p {
+  display: inline-block;
+  width: 50px;
+}
+
+.convert {
+  height: 35px;
+}
+
+.button-div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button-div .clear {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid #74c6e0;
+  color: #74c6e0;
+  font-family: "Secular One", sans-serif;
+  font-size: 20px;
+  outline-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.answer {
+  border: none;
+  min-height: 50px;
+  margin: 5px 40px;
+  background-color: #4099ab;
+  padding-bottom: 2px;
+  font-family: "Secular One", sans-serif;
+  color: white;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.placeholder {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.resultDisplay {
+  padding-left: 20px;
+  font-family: "Secular One", sans-serif;
+  font-size: 24px;
+}
+
+.reverse {
+  border-radius: 1000%;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  outline-style: none;
+  border: none;
+  color: #74c6e0;
+  font-size: 20px;
+  padding: 5px;
+}
+
+input {
+  border-radius: 30px;
+  width: 300px;
+  height: 30px;
+  margin-bottom: 25px;
+  outline-style: none;
+  border: none;
+  font-size: 24px;
+  font-family: "Secular One", sans-serif;
+  padding: 10px;
+}
+
+select {
+  font-size: 20px;
+  width: 200px;
+  min-height: 30px;
+  font-family: "Secular One", sans-serif;
+  padding: 4px;
+  margin-bottom: 10px;
+  outline-style: none;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+p {
+  font-family: "Secular One", sans-serif;
+  font-size: 24px;
+  margin-left: 0;
+}
+ 

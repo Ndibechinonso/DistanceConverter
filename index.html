@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Distance Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="converter">
+    <div class="input-section">
+      <h1 class="header">Distance Converter</h1>
+      <div class="info">
+        <p>Value to convert</p>
+        <p style="color:red"><i>input an integer or decimal</i></p>
+      </div>
+      <!--takes number to convert -->
+      <input type="number" class="input" required>
+
+      <!--options of units to convert from -->
+      <div class="convert">
+        <select id="unconvUnits">
+          <option value="km">kilometer (km)</option>
+          <option value="m">meter (m)</option>
+          <option value="cm">centimeter (cm)</option>
+          <option value="ml">miles (mi)</option>
+        </select>
+      </div>
+        <!--button to toggle the options-->
+      <button class="reverse"><i class="fas fa-long-arrow-alt-up"></i><i class="fas fa-long-arrow-alt-down"></i>
+      </button>
+      <!--options of units to convert to-->
+      <div class="convert">
+        <select id="convUnits">
+          <option value="km">kilometer (km)</option>
+          <option value="m">meter (m)</option>
+          <option value="cm">centimeter (cm)</option>
+          <option value="ml">miles (mi)</option>
+        </select>
+      </div>
+    </div>
+    <div class="button-div">
+      <button id="all-clear" class="clear clear1">Clear</button>
+      <button id="calc" class="clear clear2">Calculate</button>
+    </div>
+    <!--output display session-->
+    <div class="answer">
+      <div class="placeholder">Answer :</div>
+      <div class="resultDisplay"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
